@@ -1,6 +1,5 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,6 +8,8 @@ import {
 } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Suspense, ReactNode } from 'react';
+import './index.css';
+
 import Home from './pages/home/page.tsx';
 
 interface LayoutProps {
